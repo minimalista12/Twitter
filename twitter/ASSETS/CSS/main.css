@@ -1,0 +1,407 @@
+#menu{
+	font-size: 15px;
+	background-color: white;
+	width: 500px;
+	height: 37px;
+	text-align: center;
+	border-radius: 6px;
+	display: float;
+	margin-left: 590px;
+	margin-top: -46px;
+	line-height: 38px;
+	font-family: arial;
+	font-weight: 200;
+}
+
+h3 img {
+	margin-left: 200px;
+	width: 155px;
+	height: 46px;
+	display: inline-block;
+}
+
+.menusuperior {
+	display: inline;
+	margin-left: 300px;
+}
+
+section {
+	border-radius: 7px;
+	display: float;
+	margin-left: 210px;
+	margin-right: 490px;
+	margin-top: 40px;
+	background-color: #FCFCFC;
+	width: 590px;
+	height: auto;
+}
+
+
+.cajadetweet {
+ width: 760px;
+ height: 1000px;
+ margin-left: 20px;
+ position: float;
+}
+
+.cajadetweet h1 {
+	margin-left: 10px;
+	font-family: arial;
+	font-weight: 200;
+	font-size: 20px;
+}
+
+textarea {
+	margin-top: -30px;
+	width: 510px;
+	height: 40px;
+	color: #4E4D53;
+	font-size: 10px;
+	border-radius: 3px;
+	border: 1;
+	border-color:#9DBDD5;
+	margin-left: 10px;
+}
+
+.container {
+    width: 500px;
+}
+.msg, .char-left {
+    font-size: 17pt;
+}
+.msg {
+	margin-left: -30px;
+    width: 484px;
+}
+.char-left {
+    text-align: right;
+}
+.warning {
+    color: #c00;
+}
+
+
+#btn {
+	background-color: #EAEAEA;
+	border: 0px;
+	cursor: pointer;
+	text-align: center;
+	margin-left: 424px;
+	width: 100px;
+	height: 35px;
+	display: block;
+	color: gray;
+	font-size: 18px;
+	border-radius: 4px;
+	}
+
+#btn:hover {
+	background-color: #5590A6;
+}
+
+#btn:focus, textarea:focus{
+	outline: none;
+}
+
+/* Estilos contenedor comentarios */
+#cont {
+	color: #4E4D53;
+	text-align: left;
+}
+
+#cont p {
+	outline: 1px solid #EAEAEA;
+	padding: 30px 30px 20px;
+	position: float;
+	margin-left: 20px;
+	width: 439px;
+	height: 30px;
+
+}
+
+#cont div {
+
+	margin-bottom: 2em;
+	outline: 0.1em solid #E5E3F2;
+	background-color: #FFF;
+}
+
+#contador {
+	margin-bottom: 15px;
+	padding: 0px 0px 0px;
+	display: inline-block;
+	margin-left: 7px;
+	color: #bbbabc;
+	font-size: 30px;
+	font-family: arial;
+	font-weight: 800;
+}
+
+
+#inicio {
+	color: #00aced;
+	display: inline-block;
+}
+
+#perfil {
+	color: #00aced;
+	display: inline-block;
+}
+
+#encontrar {
+	color: #00aced;
+	display: inline-block;
+}
+
+#configuracion {
+	color: #00aced;
+	display: inline-block;
+}
+
+#ayuda {
+	color: #00aced;
+	display: inline-block;
+}
+
+#cerrar {
+	color: #00aced;
+	display: inline-block;
+}
+
+#inicio:hover {
+	color:gray;
+}
+
+#perfil:hover {
+	color:gray;
+}
+
+#encontrar:hover {
+	color: gray;
+}
+
+#configuracion:hover {
+	color:gray;
+	
+}
+
+#ayuda:hover {
+	color:gray;
+}
+
+#cerrar:hover {
+	color:gray;
+}
+
+aside {
+	border-radius: 7px;
+	float: right;
+	margin-right: 200px;
+	width: 270px;
+	height: 1000px;
+	background-color: #B7E3F4;
+	margin-top: -1000px;
+}
+
+aside h2 {
+	margin-top: 30px;
+	margin-left: 90px;
+	font-size: 16px;
+	margin-right: 30px;
+	font-family: arial;
+}
+
+aside h5 {
+	font-family: arial;
+	font-size: 13px;
+	font-weight: 200;
+	margin-left: 90px;
+	margin-top: -10px;
+}
+
+
+#fotoperfil img{
+	float: left;
+	margin-top: -57px;
+	margin-left: 35px;
+	border-style: solid;
+	border-width: 0.2px;
+	height: 40px;
+	width: 40px;
+
+}
+
+body {
+	background: url(../IMG/poptarts.jpg);
+
+}
+
+.cajaseguidores {
+	display: inline;
+}
+
+#siguiendo {
+	display: inline-block;
+	margin-left: 30px;
+	color: #1b9cc4;
+	font-size: 12px;
+	font-family: arial;
+}
+
+
+#seguidores {
+	margin-left: 20px;
+	color: #1b9cc4;
+	font-size: 13px;
+	display: inline-block;
+	font-family: arial;
+}
+
+#listas {
+	margin-left: 20px;
+	color: #1b9cc4;
+	font-size: 12px;
+	display: inline-block;
+	font-family: arial;
+	font-weight: 200;
+}
+
+
+#numeros {
+	margin-left: 40px;
+	font-weight: bolder;
+	color: black;
+	font-size: 19px;
+	display: inline-block;
+	font-family: arial;
+}
+
+#numeros2 {
+	margin-left: 40px;
+	font-weight: bolder;
+	color: black;
+	font-size: 19px;
+	display: inline-block;
+	font-family: arial;
+}
+
+#numeros3  {
+	margin-left: 40px;
+	font-weight: bolder;
+	color: black;
+	font-size: 19px;
+	display: inline-block;
+	font-family: arial;
+}
+
+.aseguir {
+	font-family: arial;
+	margin-left: 33px;
+	margin-top: 20px;
+}
+
+#usuariorecomendado1 {
+	display:inline-block;
+}
+
+
+#usuariorecomendado1 h3{
+	margin-top: 4px;
+	position: float;
+	font-weight:bolder;
+	font-size: 10px;
+	color: #1b9cc4;
+	margin-left: -1px;
+	display: inline-block;
+}
+
+#seguir1 {
+	font-size: 12px;
+}
+
+#nombre1{
+	font-size: 13px;
+}
+
+#usuario1 {
+	color:black;
+	font-family: arial;
+	font-weight: 200;
+}
+
+#usuariorecomendado1 img{
+	margin-top: 20px;
+	margin-left: 33px;
+	width: 40px;
+	height: 40px;
+	display:inline-block;
+  }
+
+
+#usuariorecomendado2 img {
+	margin-top: 15px;
+	margin-left: 33px;
+	width: 40px;
+	height: 40px;
+	display:inline-block;
+}
+
+
+#usuariorecomendado2 h3 {
+	margin-top: 4px;
+	position: float;
+	font-weight:bolder;
+	font-size: 10px;
+	color: #1b9cc4;
+	margin-left: -1px;
+	display: inline-block;
+
+}
+
+
+#masrecomendaciones {
+	font-size: 12px;
+	margin-left: 35px;
+	color: #1b9cc4;
+	text-decoration: underline;
+}
+
+.menulateral {
+	margin-top: 26px;
+	color: #1b9cc4;
+	line-height: 2.4;
+	margin-left: 30px;
+
+}
+
+#segundoinicio:hover {
+	background-color: #b6f0f9;
+	color:white;
+	cursor:pointer;
+}
+
+#nombrearroba:hover {
+	background-color: #b6f0f9;
+	color:white;
+	cursor:pointer;
+}
+
+#mensajesdirectos:hover {
+	background-color: #b6f0f9;
+	color:white;
+	cursor:pointer;
+}
+
+#faves:hover {
+	background-color: #b6f0f9;
+	color:white;
+	cursor:pointer;
+}
+
+#retweets:hover {
+	background-color: #b6f0f9;
+	color:white;
+	cursor:pointer;
+}
+
+
