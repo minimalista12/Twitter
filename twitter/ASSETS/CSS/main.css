@@ -1,3 +1,4 @@
+/*configuramos la barra de menu superior*/
 #menu{
 	font-size: 15px;
 	background-color: white;
@@ -9,16 +10,18 @@
 	margin-left: 590px;
 	margin-top: -46px;
 	line-height: 38px;
-	font-family: arial;
+	font-family: Helvetica;
 	font-weight: 200;
 }
 
+/*Insertamos el logo*/
 h3 img {
 	margin-left: 200px;
 	width: 155px;
 	height: 46px;
 	display: inline-block;
 }
+
 
 .menusuperior {
 	display: inline;
@@ -36,7 +39,7 @@ section {
 	height: auto;
 }
 
-
+/*configuramos el espacio de twitter*/
 .cajadetweet {
  width: 760px;
  height: 1000px;
@@ -51,6 +54,7 @@ section {
 	font-size: 20px;
 }
 
+/*En esta area el usuario podra ingresar su texto*/
 textarea {
 	margin-top: -30px;
 	width: 510px;
@@ -80,7 +84,7 @@ textarea {
     color: #c00;
 }
 
-
+/*coniguramos el boton para que publique su tweet*/
 #btn {
 	background-color: #EAEAEA;
 	border: 0px;
@@ -126,6 +130,7 @@ textarea {
 	background-color: #FFF;
 }
 
+/*coniguramos el contador de caracteres*/
 #contador {
 	margin-bottom: 15px;
 	padding: 0px 0px 0px;
@@ -136,7 +141,7 @@ textarea {
 	font-family: arial;
 	font-weight: 800;
 }
-
+/*coniguramos el menu superior*/
 
 #inicio {
 	color: #00aced;
@@ -168,6 +173,7 @@ textarea {
 	display: inline-block;
 }
 
+/*los respectivos hover de la barra superior*/
 #inicio:hover {
 	color:gray;
 }
@@ -193,6 +199,7 @@ textarea {
 	color:gray;
 }
 
+/*configuramos la barra lateral*/
 aside {
 	border-radius: 7px;
 	float: right;
@@ -208,11 +215,11 @@ aside h2 {
 	margin-left: 90px;
 	font-size: 16px;
 	margin-right: 30px;
-	font-family: arial;
+	font-family: Helvetica;
 }
 
 aside h5 {
-	font-family: arial;
+	font-family: Helvetica;
 	font-size: 13px;
 	font-weight: 200;
 	margin-left: 90px;
@@ -233,13 +240,15 @@ aside h5 {
 
 body {
 	background: url(../IMG/poptarts.jpg);
-
 }
+
+/*configuramos la caja de cifras de popularidad*/
 
 .cajaseguidores {
 	display: inline;
 }
 
+/*numero de cuentas seguidas*/
 #siguiendo {
 	display: inline-block;
 	margin-left: 30px;
@@ -248,15 +257,16 @@ body {
 	font-family: arial;
 }
 
-
+/*numero de seguidores*/
 #seguidores {
 	margin-left: 20px;
 	color: #1b9cc4;
-	font-size: 13px;
+	font-size: 12px;
 	display: inline-block;
 	font-family: arial;
 }
 
+/*numeros de listas creadas*/
 #listas {
 	margin-left: 20px;
 	color: #1b9cc4;
@@ -266,7 +276,7 @@ body {
 	font-weight: 200;
 }
 
-
+/*cifras exactas de las estadisticas nombradas anteriormente*/
 #numeros {
 	margin-left: 40px;
 	font-weight: bolder;
@@ -294,6 +304,8 @@ body {
 	font-family: arial;
 }
 
+/*listado de recomendaciones a seguir*/
+
 .aseguir {
 	font-family: arial;
 	margin-left: 33px;
@@ -314,7 +326,7 @@ body {
 	margin-left: -1px;
 	display: inline-block;
 }
-
+/*recomendacion #1*/
 #seguir1 {
 	font-size: 12px;
 }
@@ -336,7 +348,7 @@ body {
 	height: 40px;
 	display:inline-block;
   }
-
+/*recomendado #2*/
 
 #usuariorecomendado2 img {
 	margin-top: 15px;
@@ -346,7 +358,6 @@ body {
 	display:inline-block;
 }
 
-
 #usuariorecomendado2 h3 {
 	margin-top: 4px;
 	position: float;
@@ -355,10 +366,9 @@ body {
 	color: #1b9cc4;
 	margin-left: -1px;
 	display: inline-block;
-
 }
 
-
+/*opcion a mas recomendados*/
 #masrecomendaciones {
 	font-size: 12px;
 	margin-left: 35px;
@@ -366,13 +376,15 @@ body {
 	text-decoration: underline;
 }
 
+/*coniguramos el menu lateral*/
 .menulateral {
 	margin-top: 26px;
 	color: #1b9cc4;
 	line-height: 2.4;
 	margin-left: 30px;
-
 }
+
+/*con sus respectivos hovers*/
 
 #segundoinicio:hover {
 	background-color: #b6f0f9;
