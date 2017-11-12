@@ -1,3 +1,4 @@
+
 /*guardara variable div padre 
 
 var dios = document.getElementById('section')
@@ -35,26 +36,17 @@ function add() {
 
 	newComments.appendChild(newtext);
 	cont.appendChild(newComments); 
-
 }
 
-/*
 
-var msg toma el area de texto
-    var msg = document.getElementById('comment');
-    funcion creada para el evento onkeydown, ha que los caracteres
-	se vayan descontando y ademas queden en valores negativos
-    msg.onkeydown = function() {
-    	//máximo de caracteres
-        var maxChar = 140;
-        var charLeft = document.getElementById("p");
-        var msg2 toma el valor ingresado por el usuario
-        var msg2 = document.getElementById('comment').value;
-        /*el parrafo "char-left" es igual a la cantidad 
-        maxima de caracteres permitidos y se lo resta a la longitud
-        de lo ingresado por el usuario*/
-        //charLeft.innerHTML = maxChar - msg2.length;
-    //} 
+
+ //creamos nuevo estilo para contador - entre comentarios porque no funciona pero esta era mi idea
+
+/*
+var contadorenrojo=createElement('p');
+	contadorenrojo.classList.add('id', 'contadorenrojo');
+
+*/
 
 
 var obj = document.getElementById('mnsj');
@@ -66,9 +58,11 @@ obj.onkeydown = function() {
 	var mnsj2 = document.getElementById('mnsj').value;
 
 	charLimit.innerHTML =maxi - mnsj2.length;
+	} 
+	if (contador > 0) { 
+		document.getElementById('contador').style.color= 'red';
 
-}
-
+	}
 
 
 
